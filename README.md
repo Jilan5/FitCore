@@ -6,7 +6,7 @@ itCore’s backend will leverage Django REST Framework (DRF) for building a scal
 
 **Authentication (10 hours)**
 
-<POST /api/auth/register> - User registration
+POST /api/auth/register - User registration
 POST /api/auth/login - Email/password login
 POST /api/auth/social - Social login (Google/Apple)
 POST /api/auth/refresh - Refresh JWT token
