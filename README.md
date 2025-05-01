@@ -1,4 +1,4 @@
 # FitCore
 FitCore is a cross-platform fitness application with workout videos and AI-generated meal plans. 
-#Proposed Architecture:
+# Proposed Architecture:
 itCore’s backend will leverage Django REST Framework (DRF) for building a scalable, RESTful API with JWT-based authentication and OAuth2.0 for third-party logins. The PostgreSQL database will handle structured relational data, while Redis caches high-frequency queries and session data. AWS S3 stores media assets (workout videos, thumbnails). The AI service layer integrates with OpenAI’s API  via a modular adapter pattern, ensuring flexibility in meal plan generation. Health data from Apple HealthKit and Google Fit will be ingested via secure webhooks, normalized, and stored in PostgreSQL. Payment processing relies on Google Play Billing and Apple App Store Connect APIs, with transaction validation handled server-side. API responses follow JSON:API specifications, and Swagger/OpenAPI docs ensure clear developer integration. 
